@@ -1,0 +1,157 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.container{
+    /* border: 1px solid red; */
+    height: 80px;
+    /* width: 400px; */
+}
+.brand{
+    height: 100%;
+    /* border: 2px solid black; */
+    width: 500px;
+    margin: auto;
+}
+#brand-name{
+    color:saddlebrown;
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    top: 10px;
+}
+.search{
+    height: 50px;
+    border: 2px solid green;
+    width:415px;
+    margin: auto;
+    position: relative;
+    top: 50px;
+    right: 300px;
+    display: flex;
+    border-radius: 5px;
+}
+input{
+    height: 35px;
+    width: 300px;
+    position: relative;
+    top: 7px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding-left: 10px;
+    color: saddlebrown;
+
+
+}
+button{
+    width: 100px;
+    height: 40px;
+    position: relative;
+   top:5px;
+   border-radius: 5px;
+   border: none;
+   outline: none;
+   color: white;
+   background-color: saddlebrown;
+   font-size: 20px;
+}
+.contant{
+    /* border: 2px solid red; */
+    height: 700px;
+    width: 800px;
+    margin: auto;
+    margin-top: 100px;
+}
+.my-profile{
+    /* border: 2px solid black; */
+    height: 600px;
+    width: 700px;
+    margin: auto;
+    position: relative;
+    top: 100px;
+
+}
+.profile{
+    /* border: 2px solid rebeccapurple; */
+    height: 350px;
+    width: 400px;
+    margin: auto;
+    text-align: center;
+}
+
+.repositery{
+    /* border: 1px solid cyan; */
+    /* display: flex; */
+    width: 450px;
+    margin: auto;
+    height: 200px;
+    /* margin-top: 30px; */
+    text-align: center;
+}
+a:active{
+    text-decoration: none;
+}
+a:link{
+    text-decoration: none;
+}
+
+img{
+    height: 230px;
+    border-radius: 150px;
+    box-shadow: 1px 2px 8px 2px saddlebrown;
+    
+}
+#followers{
+    color: green;
+    position: relative;
+    right: 100px;
+}
+#following{
+    color: green;
+    position: relative;
+    left: 100px;
+    bottom: 23px;
+}
+h2{
+    color: saddlebrown;
+    position: relative;
+    bottom: 20px;
+}
+#view-profile{
+    /* border: 1px solid red; */
+    padding: 10px 15px;
+    background-color: saddlebrown;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+}
+span{color: saddlebrown;
+}
+
+#a{
+    /* margin-top: 50px; */
+    /* border: 1px solid black; */
+    /* padding: 10px; */
+    /* padding-left: 15px;
+    padding-right: 15px; */
+    padding: 7px 25px ;
+    background-color: saddlebrown;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+
+}
+
+
+p{
+    display: inline-block;
+    margin: 7px;
+    margin-top: 20px;
+}
+input::placeholder{
+    color: saddlebrown;
+}
+#heading{
+    color: green;
+}
